@@ -1,5 +1,5 @@
 body{
-    background:white url(./images/silverware.jpg) repeat; ;
+    background-color: #000;
     margin-top: 0px;
     padding: 0px;
     line-height: 1.4em;
@@ -7,6 +7,21 @@ body{
     font-size: 11pt;
     font-family: Georgia,Garamond; 
     
+}
+#card{
+
+    background:white url(./images/silverware.jpg) repeat;
+    margin-left: 480px ;
+    margin-top: auto;
+    /* text-align: center ;
+    <border: 1px solid;*/
+    padding:12px ; 
+     width: 36%; 
+    height: 124em;
+    color: #000;
+   /* border-radius: 5px;*/
+    box-shadow:0 3px 5px 0 silver ;
+    transition: 0.3s;
 }
 a{
     /* text-decoration: #A4A400 ; */
@@ -46,17 +61,16 @@ background-color: #FFFFA8;
 .container{
     margin-left: 40px;
 }
-/* #granny{
-    margin-left: 30px;
-}
-#right{
-    margin-left: 85px;
-} */
+
 .copyright{
 font-family: monospace;
+margin-left: 278px;
 }
 pre{
-    line-height: 4px;
+    line-height: 3px;
+}
+.logo{
+    margin-left:361px;
 }
 ul{
     list-style-image: url('images/pie_icon.gif');
