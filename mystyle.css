@@ -6,6 +6,7 @@ body{
         } 
 .aboutme{
     color:rgb(65, 13, 13);
+    margin-top: auto;
 }
         .mood{
             margin-right:10px; 
