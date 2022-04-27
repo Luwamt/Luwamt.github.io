@@ -35,7 +35,7 @@ h2{
     text-decoration: underline;
 }
 .comment1{
-    background-color: rgb(224, 224, 163);
+    background-color: rgb(241, 241, 178);
 }
 .QA{
 background-color: rgb(241, 241, 178);;
@@ -44,5 +44,17 @@ background-color: rgb(241, 241, 178);;
     background-color: rgb(241, 241, 178);;
 }
 .container{
-    margin-left: 35px;
+    margin-left: 40px;
+}
+/* #granny{
+    margin-left: 30px;
+}
+#right{
+    margin-left: 85px;
+} */
+.copyright{
+font-family: monospace;
+}
+pre{
+    line-height: 6px;
 }
