@@ -37,7 +37,8 @@ p{
 h1{
     background-color:#F0F0F0 ;
     text-align: center;
-    font-weight: 22pt;
+    font-weight: bold;
+    font-size: 22pt;
     color: #A4A400;
     font-family: Helvetica, Arial;
     text-decoration: underline;
@@ -46,7 +47,8 @@ h2{
     background-color:#F0F0F0 ;
     color: #A4A400;
     font-family: Helvetica, Arial;
-    font-weight: 18pt; 
+    font-weight:bold;
+    font-size: 18pt; 
     text-decoration: underline;
 }
 .comment1{
