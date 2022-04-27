@@ -1,12 +1,48 @@
 body{
-    background-color: aquamarine;
+    background-color:white ;
     margin-top: 0px;
     padding: 0px;
     line-height: 1.4em;
+    color:#404040 ;
+    font-size: 11pt;
+    font-family: Georgia,Garamond; 
+    
 }
+a{
+    /* text-decoration: #A4A400 ; */
+    color: #A4A400;
+}
+
 p{
-    line-height: 0.6em;
+    line-height: 0.4em;
+}
+.recipe{
+    line-height: 1.2em;  
 }
 h1{
+    background-color:#F0F0F0 ;
     text-align: center;
+    font-weight: 22pt;
+    color: #A4A400;
+    font-family: Helvetica, Arial;
+    text-decoration: underline;
+}
+h2{
+    background-color:#F0F0F0 ;
+    color: #A4A400;
+    font-family: Helvetica, Arial;
+    font-weight: 18pt; 
+    text-decoration: underline;
+}
+.comment1{
+    background-color: rgb(224, 224, 163);
+}
+.QA{
+background-color: rgb(241, 241, 178);;
+}
+#comment2{
+    background-color: rgb(241, 241, 178);;
+}
+.container{
+    margin-left: 35px;
 }
