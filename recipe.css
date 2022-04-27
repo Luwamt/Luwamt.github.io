@@ -1,5 +1,5 @@
 body{
-    background-color:white ;
+    background:white url(./images/silverware.jpg) repeat; ;
     margin-top: 0px;
     padding: 0px;
     line-height: 1.4em;
@@ -35,13 +35,13 @@ h2{
     text-decoration: underline;
 }
 .comment1{
-    background-color: rgb(241, 241, 178);
+    background-color: #FFFFA8;
 }
 .QA{
-background-color: rgb(241, 241, 178);;
+background-color: #FFFFA8;
 }
 #comment2{
-    background-color: rgb(241, 241, 178);;
+    background-color: #FFFFA8;
 }
 .container{
     margin-left: 40px;
@@ -57,4 +57,7 @@ font-family: monospace;
 }
 pre{
     line-height: 6px;
+}
+ul{
+    list-style-image: url('images/pie_icon.gif');
 }
