@@ -56,7 +56,7 @@ background-color: #FFFFA8;
 font-family: monospace;
 }
 pre{
-    line-height: 6px;
+    line-height: 4px;
 }
 ul{
     list-style-image: url('images/pie_icon.gif');
