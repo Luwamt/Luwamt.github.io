@@ -1,54 +1,116 @@
-body{
-    background: url(./imageMovie/background.png);
-    line-height: 1.4em;
-    padding: 0;
+html body{
+    margin:0px;
+    padding: 0px;
+    font: 8pt Verdana, Tahoma, sans-serif;
+    background: url(imageMovie/background.png) repeat;
+}
+h1{
+    font: 24pt Verdana, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+    font-weight: bold;
+}
+body .banner{
+    background: url(imageMovie/bannerbg.png) repeat-x;
+    text-align: center;
+}
+body .wrapper{
+    width: 800px;
     margin: auto;
 }
-.header,img#banner{
-    /* background: url(./imageMovie/banner.png); */
-    border-bottom-right-radius: 50px;
-    
+body .wrapper .cnt-main{
+    border: solid 4px gray;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 546px 246px;
+    grid-template-areas: 
+        "cntLFT cntRGT"
+        "cntFoot cntFoot"
 }
-img#rottenbig{
-    width: 100px;
-    background: url(images/rbg.png) repeat-x;
+.cnt-main .cnt-lft, #cntLFT {
+    border: solid 0px red;
+    grid-area: cntLFT;
+}
+.cnt-main .cnt-lft .rottenbig{
+    background: url(imageMovie/rbg.png)  repeat-x;
     border-radius: 16px 0px 0px 0px;
-    margin :0%;
-    padding: 0px;
 }
-#card{
-    /* background-color: rgb(34, 31, 31); */
-    
-    margin-left: 280px ;
-    margin-top: auto;
-    /* text-align: center ;*/
-    border: 4px solid grey;
-    padding:12px ; 
-     width: 60%; 
-    height: 124em;
-    color: #000;
-    border-radius: 15px;
-    box-shadow:0 3px 5px 0 silver ;
-    transition: 0.3s;
+.cnt-main .cnt-lft .rottenbig img{
+    border-radius: 16px 0px 0px 0px;
+    vertical-align: bottom;
 }
-h2{
-    text-align: center;
-    text-shadow: 1px 2px gray;
+.cnt-main .cnt-lft .percent{
+    font-size: 48pt;
     font-weight: bold;
+    color: red;
+}
+.cnt-main .cnt-lft .inner{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    column-gap: 2%;
+    padding: 2%;
+}
+.cnt-main .cnt-lft .inner .qbox{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    border: solid 2px gray;
+    border-radius: 10px;
+    padding: 8px;
+    overflow: hidden;
+
+}
+.cnt-main .cnt-lft .inner .qbox img{
+    margin-right: 5px;
+    float: left;
     
 }
-div#critic{
-float: right;
-width: 20%;
-margin: 0.5em;
-border: 2px solid grey;
-border-radius: 10px;
+.cnt-main .cnt-lft .inner .reviewer{
+    margin-bottom: 20pt;
+    overflow: hidden;
 }
-#text{
+.cnt-main .cnt-lft .inner .reviewer .publication{
+    font-style: italic;
+}
+.cnt-main .cnt-lft .inner .reviewer img{
+    vertical-align: top;
     float: left;
-    width: 10%;
-    /* margin: 0.5em; */
-    border: 2px solid grey;
-    border-radius: 10px;   
-
+}
+.cnt-main .cnt-rgt, #cntRGT {
+    background-color:#A2B964;
+    border-radius: 0px 16px 0px 0px;
+    border: solid 0px blue;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-area: cntRGT;   
+    
+}
+.cnt-main .cnt-rgt .poster img{
+    border-radius: 0px 16px 0px 0px;
+    width: 246px; /*this has to reduce as layout must be at 800px including of 4px border left + 4px border right*/
+}
+.cnt-main .cnt-rgt dl{
+    padding: 0px 10pt;    
+}
+.cnt-main .cnt-rgt dt{
+    font-weight: bold;
+    margin: 10pt 0pt 0pt;
+}
+.cnt-main .cnt-rgt dd ul{
+    list-style: none;
+    padding-left: 0px;    
+}
+.cnt-main .cnt-foot, #cntFoot{
+    text-align: center;
+    border: solid 0px red;
+    grid-area: cntFoot;
+    background-color: #A2B964;
+    padding:5px;
+    border-radius: 0px 0px 16px 16px;
+}
+body .validate{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
 }
