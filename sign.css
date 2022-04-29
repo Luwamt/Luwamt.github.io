@@ -25,8 +25,8 @@ margin: 0;
     margin-top: 50px;
     margin-left: 290px;
     border-radius: 10px ;
-    box-shadow:1px 3px ivory ;
-border: 5px solid grey;
+    box-shadow:1px 3px rgb(233, 235, 223) ;
+border: 6px solid gray;
 }
 #sign{
     background-color: white;
