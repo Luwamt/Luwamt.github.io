@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+/* .wraper{
+    background-color:rgb(222, 222, 249);
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+    border: 12px solid rgb(18, 18, 18);
+    border-radius: 15px ;
+} */
+.holder{
+    /* position:absolute; */
+    background-color:rgb(222, 222, 249);
+    width: 420px;
+    margin: 200px;
+    border-radius: 10px;
+    box-shadow:0px 1px gray ;
+
+}
+#sign{
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 0px 2px  grey;
+    position: sticky;
+    padding: 5px;
+}
+/* .wraper {
+margin-top: 20px;
+margin-bottom: 20px;
+} */
+span{
+    
+color: rgb(206, 20, 20);
+}
+.btn{
+    background-color: rgb(215, 160, 178);
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0px 2px  grey;
+    padding: 3px;
+    border-radius: 3px;
+    width: 90px;
+}
+label{
+ /* margin-right: 90px; */
+ font-weight: bold;  
+
+    
+}
+
+.text{
+padding: 3px;
+
+   
+}
+.divClass{
+    margin-bottom: 7px;
+}

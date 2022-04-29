@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Sign-Up></Sign-Up></title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+   <div class="wr">
+       <fieldset class="holder">
+           <legend id="sign">New User Signup: </legend>
+<div class="divClass">
+    <form action="https://mumstudents.org/params.php">
+<label for="name"> Name:</label>
+<input style="margin-left: 100px;"class="text" type="text" name="username" size="15" maxlength="16" required>
+</div>
+
+<div class="divClass">
+<label for="gender">Gender:</label>
+<input style="margin-left: 85px;" type="radio"name="cc"/> male
+<input type="radio" name="cc" checked />female
+</div>
+
+<div class="divClass">
+<label for="age" >Age:</label>
+<input style="margin-left: 110px;"class="text" type="text" name="age" size="4" maxlength="6">
+</div>
+
+<div class="divClass">
+<label for="personality" >Personality type:</label>
+<input  class="text" style="margin-left: 15px "type="text" name="Personality type" size="4" maxlength="6">
+(<span>don't know your type?</span>)
+</div>
+
+<div class="divClass">
+<label for="Favorite os">Favorite Os:</label>
+<select style="margin-left: 50px;" class="text" name="favorite os[]" id="">
+    <option value="window" selected>Windows</option>
+    <option value="mac">Mac OS X</option>
+    <option value="linnux">Linux</option>
+</select>
+</div>
+
+<div class="divClass">
+<label  for="seeking age">Seeking age:</label>
+<input  style="margin-left: 44px;"  class="text" type="text" name="min" placeholder="min" size="1" > to
+<input  type="text" name="max" placeholder="max"  size="1"  class="text">
+</div>
+
+<div class="divClass">
+<button name="button" class="btn">Sign Up</button>
+</div>
+</fieldset>
+</form>
+   </div> 
+</body>
+</html>
