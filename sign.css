@@ -1,7 +1,6 @@
 body{
     background:url(./images/DateApp.png) repeat ;
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif ;
 }
 /* .wraper{
@@ -13,20 +12,20 @@ body{
     border-radius: 15px ;
 } */
 #image{
-padding: 8px; 
+padding: 5px; 
 margin: 0;
 
 }
 
 .holder{
     /* position:absolute; */
-     background-color:rgb(2, 2, 2,0.1); 
+    background: radial-gradient(circle, rgb(228, 176, 185) 3%, rgba(170, 38, 38, 0.979) 85%);
     width: 420px;
-    margin-top: 50px;
-    margin-left: 290px;
+    margin-top: 60px;
+    margin-left: 350px;
     border-radius: 10px ;
-    box-shadow: 10px 10px  30px rgba(0, 0, 0, 0.4);
-border: 4px solid gray;
+    box-shadow: 0px 20px  20px 20px  rgba(0, 0, 0, 0.3);
+border: 4px solid rgb(202, 159, 159);
 }
 #sign{
     background-color: white;
@@ -67,23 +66,23 @@ padding: 3px;
 .logo{
     padding: 30px;
     margin-top: 10px;
-    margin-left: 290px;
+    margin-left: 350px;
 }
 .para{
     margin-top: 30px;
-    margin-left: 290px;
+    margin-left: 350px;
     margin-bottom: 20px;
     color:ivory;
 }
 #copyRight{
-    margin-left: 290px;
+    margin-left: 350px;
     margin-bottom: 20px;
     color:ivory;
 }
 #back{
     text-decoration: none;
     color:rgb(29, 29, 250);
-    margin-left: 290px;
+    margin-left: 350px;
 }
 i{
     color:ivory;
