@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task List</title>
     <link rel="stylesheet" href="task.css"/>
-    <script></script>
+    <script src="./javascript/task.js" type="text/javascript"></script>
 </head>
 <body>
   <div class="wraper">
@@ -15,18 +15,18 @@
      
 <label id="task" for="task">Task</label><br>
 <div>
-<input type="text" >
+<input type="text"  id="task1" placeholder="task">
 </div>
 <div>
-<button class="btn">Add Task</button>
+<button class="btn" onclick="addTask()">Add Task</button>
 </div>
 <div >
-<button class="btn">Clear Task</button>
+<button class="btn" onclick="clearTask()">Clear Task</button>
 </div>
-
-<label id="task2">Task List</label><br>
-<input id="rightbox" type="text">
-
+<div id="task2">
+<label >Task List</label><br>
+  <textarea placeholder="Write your task here!!!"name="textarea" id="rightbox" cols="30" rows="10"></textarea>
+</div>
   </div>  
 </body>
 </html>
