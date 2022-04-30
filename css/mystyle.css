@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(171, 132, 132) ;
+    background: linear-gradient(90deg, rgb(216, 182, 238) 0%, rgb(240, 110, 110) 75%, rgba(252,176,69,1) 100%);
     font-family:Arial, Helvetica, sans-serif ;
     line-height: 1.4;
     margin-left: 18px;
