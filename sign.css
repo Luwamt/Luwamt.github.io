@@ -25,15 +25,16 @@ margin: 0;
     margin-top: 50px;
     margin-left: 290px;
     border-radius: 10px ;
-    box-shadow:1px 3px rgb(233, 235, 223) ;
-border: 6px solid gray;
+    box-shadow: 10px 10px  30px rgba(0, 0, 0, 0.4);
+border: 4px solid gray;
 }
 #sign{
     background-color: white;
     border: 1px solid gray;
-    box-shadow: 0px 2px  grey;
+     box-shadow: 5px 5px  10px rgba(0, 0, 0, 0.4); 
     position: sticky;
     padding: 5px;
+     text-shadow: 4px 4px  5px rgba(0, 0, 0, 0.3);
 }
 span{
     
@@ -43,12 +44,13 @@ color: rgb(25, 25, 70);
     background-color: rgb(215, 160, 178);
     font-weight: bold;
     font-size: 16px;
-    box-shadow: 0px 2px  grey;
+    box-shadow: 5px 5px  10px rgba(0, 0, 0, 0.4); 
     padding: 3px;
     border-radius: 3px;
     width: 90px;
     margin-top: 8px;
     color:black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 label{
  /* margin-right: 90px; */
@@ -86,3 +88,6 @@ padding: 3px;
 i{
     color:ivory;
 }
+/* input{
+    box-shadow: 2px 2px  3px rgba(0, 0, 0, 0.4); 
+} */

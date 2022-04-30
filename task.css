@@ -1,0 +1,64 @@
+body{
+    margin-top: 150px;
+    margin-left: 5%;
+    margin-right: 20%;
+    font-family: "Century Gothic",sans-serif;
+   
+}
+.wraper{
+    margin-top: 50px;
+    margin-left: 300px;
+    border: 5px solid rgb(48, 48, 177);
+    height: 240px;
+    background-color:rgb(2, 2, 2,0.1); 
+    width: 650px;
+    box-shadow: 10px 10px  30px rgba(0, 0, 0, 0.4);
+
+}
+h1{
+    font-size: 23px;
+    font-weight: bold;
+    color: blue;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+#task{
+    margin-left: 27px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 25px;
+    padding: 6px;
+    width: 220px;
+    height: 30px;
+    
+}
+#comment{
+    margin-left: 00px;
+    float: left;
+    padding: 5px;
+}
+input{
+    margin-left: 25px;
+    padding: 5px;
+    width: 200px;
+}
+#rightbox{
+    margin-top: -140px;
+    margin-right: 25px;
+    padding: 47px;
+    float:right;
+
+
+}
+#task2{
+    margin-top: -150px;
+    margin-right: 250px;
+    padding: 5px;
+    float:right; 
+    font-weight: bold;
+    font-size: 19px;  
+}
