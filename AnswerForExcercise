@@ -1,0 +1,19 @@
+1.A The difference is 
+the first one is execute after 2000 min , which  is correct way 
+
+1.B, The second one ruin the functionality of the waiting time because,
+ first execute the function, then returing nothing(Undifined) so there is 
+ no item to execute.
+
+ 2,alert(x) : This returns 6
+alert(y(2,3)): This returns 6
+
+3,In This case it is same with the problem one, 
+first execute the booyah2() function, then after 2000 miliSeconds nothing to excecute
+which is Undifine. 
+Then after that  booyah1 is excute after  2000 miliSeconds.
+
+
+Unobtrusive Javascript: This means it is a good way separating 
+the Javascript and CSS files from writing inside the html files..
+Good to use as extrenal files.
