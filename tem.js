@@ -1,7 +1,7 @@
-var body = document.body;
-var textArea = document.getElementById("textArea").value;
-var btn = document.getElementById("btn");
-var check = document.getElementById("bling");
+let body = document.body;
+// let textArea = document.getElementById("textArea").value;
+let btn = document.getElementById("btn");
+let check = document.getElementById("bling");
 
 function increaseFontSize() {
   let txt = document.getElementById("textArea");
@@ -12,28 +12,30 @@ function increaseFontSize() {
 }
 
 function interval() {
-  var id = setInterval(increaseFontSize, 1000);
+  let id = setInterval(increaseFontSize, 1000);
   setTimeout(clearInterval, 5000, id);
   console.log("timer rerun");
 }
 
 function changeFont() {
-
-  if (check.checked) {
+  if (document.getElementById("bling").checked) {
     console.log("checked");
     
     document.getElementById("textArea").style.fontWeight = "bold";
     document.getElementById("textArea").style.color = "green";
     document.getElementById("textArea").style.textDecoration = "underline";
-    body.style.backgroundImage = "url(Obverse_of_the_series_2009_$100_Federal_Reserve_Note.jpeg')";
+    document.body.style.backgroundImage="url('images/Obverse_of_the_series_2009_$100_Federal_Reserve_Note.jpg')";
+    // body.style.backgroundImage = "url('.')";
     
   } else {
     console.log("unchecked");
     document.getElementById("textArea").style.fontWeight = "normal";
     document.getElementById("textArea").style.fontWeight = "black";
     document.getElementById("textArea").style.textDecoration = "none";
-    body.style.backgroundColor = "white";
+    document.body.style.backgroundColor= "white";
+  
   }
+  
 
 }
 

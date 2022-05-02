@@ -17,8 +17,6 @@ window.onload = function () {
   }
   
   
-  
-  
   function increaseFontSize(){
     let txt = document.getElementById("textArea");
     style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
