@@ -14,6 +14,6 @@ which is Undifine.
 Then after that  booyah1 is excute after  2000 miliSeconds.
 
 
-Unobtrusive Javascript: This means it is a good way separating 
-the Javascript and CSS files from writing inside the html files..
-Good to use as extrenal files.
+4,Unobtrusive Javascript: This means it is a good way separating 
+the Javascript from writing inside the html files..
+Good to use as extrenal files. HTML markup is now clean without any traces of javascript. Page load time is better. It is also easy to update the code as all the Javascript logic is present in a separate file.
