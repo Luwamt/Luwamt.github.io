@@ -3,8 +3,8 @@
                            Answers for the Excerice
 
 
-1.A :-  The difference is 
-the first one is execute after 2000 miliSeconds , which  is correct way 
+1.A :-  The difference is the first one is execute after 2000 miliSeconds,
+ which is correct way, and best practice.
 
 1.B :- The second one break the functionality of the waiting time because,
  the function will be called imediately, then returing nothing(Undifined) so there is 
@@ -13,7 +13,7 @@ the first one is execute after 2000 miliSeconds , which  is correct way
  2,alert(x) : After excuting the function returns 6.
 alert(y(2,3)): And Same thing after excuting the function returns 6.
 
-3, Here is the answer for the Code:
+3, Here is the Code:
 
 function booyah1(){
     alert("BOOYAH1");
