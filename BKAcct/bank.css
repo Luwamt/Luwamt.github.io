@@ -15,3 +15,14 @@ h1{
     padding: 17px;
     margin-left: 250px;
 }
+fieldset{
+    width: 80%; 
+    margin-left: 100px;
+}
+legend{
+    border: 2px solid gray;
+}
+textarea{
+    width:55%;
+     height:200px
+}
