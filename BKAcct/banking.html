@@ -5,25 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Banking Account</title>
+  <link rel="stylesheet" href="bank.css">
   <script src= banking.js></script>
 </head>
 <body>
-  <fieldset style="background-color:antiquewhite">
-    <legend style="background-color:yellow"><h3>Open a Banking Account</h3></legend>
+  <h1 >Bank Account Application </h1>
+  <!-- <div class="ctn">
+    Account Name:
+    <input  id="nameInp" type="text"> <br> <br> 
+    Deposit: <input id="depositInp" type="text"><br> <br>
+    <button id="btn" >Create new account</button>
+    <br> <br>
+    <textarea name="textArea" id="textA" cols="60" rows="10"></textarea>
+    <br> <br>
+    <button id="deposit">Deposit</button> 
+    <button id="debit">Debit</button>
+  </div>  -->
+    
+    
+   <fieldset style="width: 80%; margin-left: 100px;">
+    <legend  style="border: 2px solid gray;"><h3>Open a Banking Account</h3></legend>
     <br><br>
 
     <label>Account Name: </label>
-    <input id= "nameInp" type="text">
+    <input id= "nameInp" type="text" placeholder="Account Name">
     <br><br>
     <label>Deposit: </label>
-    <input id= "depositInp" type="text">
+    <input id= "depositInp" type="text" placeholder="$ deposit">
 
     <br><br>
     <button id = "btn">Create new account</button>
     <br><br>
 
-    <textarea id= "txt" style="width:80%; height:400px"></textarea>
-  </fieldset>
+    <textarea id= "txt" style="width:55%; height:200px"></textarea>
+  </fieldset> 
   
 </body>
 </html>
