@@ -14,6 +14,7 @@ color red.
 Sample HTML:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+--> Solution for the code
 <body>
     <h1>abc</h1><br><div>
         <h1>div-1</h1>
@@ -30,6 +31,9 @@ Sample HTML:
 
 
 3. Use a jQuery method to insert the text "YES!" at the end of the <p> element.
+
+--> Solution for the code
+
 <!DOCTYPE html>
 <html>
 <head>
