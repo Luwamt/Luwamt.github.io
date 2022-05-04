@@ -6,26 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task List</title>
     <link rel="stylesheet" href="task.css"/>
-    <script src="./javascript/task.js"></script>
+    <script src="./javascript/taski.js"></script>
 </head>
 <body>
   <div class="wraper">
       <h1>Task List</h1>
-    
-     
+       
 <label class="lbl" id="task">Task</label><br>
 <div>
-<input type="text"  id="task1" placeholder="task">
+<input type="text"  id="task" placeholder="task">
 </div>
 <div>
-<button class="btn" onclick="addTask()">Add Task</button>
+<button class="btn" id="addBtn">Add Task</button>
 </div>
 <div >
-<button class="btn" onclick="clearTask()">Clear Task</button>
+<button class="btn" id="clearBtn">Clear Task</button>
 </div>
 <div id="task2">
 <label >Task List</label><br>
-  <textarea placeholder="Write your task here!!!" name="textarea" id="rightbox" cols="30" rows="10"></textarea>
+  <textarea placeholder="Write your task here!!!" name="textarea" id="textField" cols="30" rows="10"></textarea>
 </div>
   </div>  
   <div class="logo">
