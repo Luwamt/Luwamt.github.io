@@ -13,10 +13,12 @@ $("li").each(function() {
 $("li").each(function(idx) {
  $(this).css(“color”, “yellow”); });
 
- Answer: All the 3 code fragments are equivalent all they give same result ,but have different parameters, 
- In first code fragment they use index for the postion of the selector and element which is the current element.
- In second code fragment they use the this keyword, which is explicitly used for the current select element, so this give same result.
- In third code fragment they use index and this its same thing with above codes. which is call the selecpostion and the current element.
+ Answer: All the 3 code fragments are equivalent, but have different parameters.
+ As the each() method executes a function with two optional parameters.
+ In first code fragment they use index for the element and element which is the current element.
+ In second code fragment they use the this keyword, allow us to use the current element inside our function, so this give same result.
+ In third code fragment they use index and this its same thing with above codes.
+ -->Therefore we are using the this keyword or e parameter which all refers to the current element.
 
 2. Write a jQuery expression to find all divs on a page that include an unordered list in them, and make
 their text color be blue.
