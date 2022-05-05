@@ -13,7 +13,7 @@ $("li").each(function(idx) {
  Answer: All the 3 code fragments are equivalent all they give same result ,but have different parameters, 
  In first code fragment they use index for the postion of the selector and element which is the current element.
  In second code fragment they use the this keyword, which is explicitly used for the current select element, so this give same result.
- In third code fragment they use index and this its same thing with above codes.
+ In third code fragment they use index and this its same thing with above codes. which is call the selecpostion and the current element.
 
 2. Write a jQuery expression to find all divs on a page that include an unordered list in them, and make
 their text color be blue.
@@ -26,12 +26,14 @@ their text color be blue.
  <li>the second item</li>
  </ul>
  </div>
- <script>
-$(document).ready(function(){
-    $(div ul).css("color",blue);
 
+ <script>
+
+$(document).ready(function(){
+   $("div ul").css("color","blue");
 });
  </script>
+
  </body>
 3. Write jQuery code to append the following div element (and all of its contents) dynamically to the body
 element.
@@ -45,5 +47,11 @@ HTML:
  </head>
  <body>
 
+ <script>
+$(document).ready(function(){
+       $("body").append("<div><h1>JQuery Core</h1></div>")
+    });
+
+     </script>
  </body>
  </html>

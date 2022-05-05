@@ -13,17 +13,17 @@
 <body>
 
 <h1>CS472: ASCII Animation Viewer</h1>
-<textarea name="textArea" id="textArea" cols="90" rows="20"></textarea>
+<textarea name="textArea" id="textarea" cols="90" rows="20"></textarea>
 <div class="collBtn">
 <fieldset>
     <legend>PlayControls:</legend>
-    <button>start</button>
-    <button>Stop</button>
+    <button id="btnStart">start</button>
+    <button id="btnStop">Stop</button>
 </fieldset>
 
 <fieldset>
     <legend>Animation:</legend>
-   <select name="dropdown" id="dropdown">
+   <select name="dropdown" id="animOpt">
        <option value="Blank" selected>BlANK</option>
        <option value="Custom">CUSTOM</option>
        <option value="Exercises">EXERCISES</option>
@@ -35,7 +35,7 @@
 
 <fieldset>
     <legend>Size:</legend>
-   <select name="dropdown" id="dropdown">
+   <select name="dropdown" id="sizeOpt">
     <option value="7pt">Tiny</option>
        <option value="10pt" selected>Small (10pt)</option>
        <option value="12pt">Medium (12pt)</option>
@@ -47,17 +47,17 @@
 
 <fieldset>
     <legend>Speed</legend>
-    <input type="checkbox" id="checkbox">Turbo
+    <input type="checkbox" id="check">Turbo
 </fieldset>
 </div>
    
    <div class="logo">
 
-    <a  href="https://validator.w3.org/nu/?doc=https://luwamt.github.io/ascii.html"
+    <a  href="https://validator.w3.org/nu/?doc=https://luwamt.github.io/ASCII Animation\ascii.html"
                         rel="html validator">
                         <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator" /></a><br>
             
-                            <a href="http://jigsaw.w3.org/css-validator?uri=https://https://luwamt.github.io/ascii.css">
+                            <a href="http://jigsaw.w3.org/css-validator?uri=https://https://luwamt.github.io/ASCII Animation\ascii.css">
                             <img src="./images/w3c-css.png" alt="Valid CSS!"/> </a><br>
                          
                            <a href="https://webster.cs.washington.edu/jslint/?referer/luwamt.github.io/ascii.js">
