@@ -30,11 +30,13 @@ fieldset{
     border: 3px solid black;
     display: inline;
     width: 25px;
-  margin-left: 1%;
+  margin-left: 2%;
   width: 6%;
 }
 .collBtn{
-    margin-left: 85px;
+    
+    display: flex;
+    justify-content: center;
 }
 .logo{
 position: fixed;
