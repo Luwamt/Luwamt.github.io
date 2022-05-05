@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+   <ul>
+    <li>FPP</li>
+    <li>MPP</li>
+    <li>WAP</li>
+    <li>ASD</li>
+   </ul>
+    
+    <script>
+        $("li").each(function(idx, e) {
+            $(e).css("color", "yellow"); });
+           //code fragment 2
+           $("li").each(function() {
+            $(this).css("color", "yellow"); });
+           //code fragment 3
+           $("li").each(function(idx) {
+            $(this).css("color", "yellow"); });
+    </script>
+</body>
+</html>
