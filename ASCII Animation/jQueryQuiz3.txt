@@ -34,6 +34,12 @@ $(document).ready( function(){
 </html>
 
 2. Write jQuery code to create a red background for the level-2 list items.
+<script>
+        $(document).ready(function () {
+          $(".level-2").css({"background-color":"red"});
+        });
+      </script>
+
 <ul class="level-1">
  <li class="item-i">I</li>
  <li class="item-ii">II
@@ -53,6 +59,12 @@ $(document).ready( function(){
 </ul>
 3. Write jQuery code to select the element that comes immediately before item three and change its
 background color to blue.
+
+ <script>
+          $(document).ready( function(){
+          $("ul li:nth-child(2)").css("background-color", "blue");
+          });
+      </script>
 <ul>
  <li>list item 1</li>
  <li>list item 2</li>
@@ -65,8 +77,11 @@ described in Chapter 4 of Head First jQuery: "Turkey" in the ingredient list of 
 "Mashed Potatoes" in the vegetarian version. You may assume there is a class "turkey" that identifies
 these items in the list. Describe the changes to the Javascript (jQuery) code to implement this new
 requirement.
+
+
 5. Write Javascript (jQuery) code to change the color of the parent and grandparent list items of the span
 of text ("some text") in the following to green.
+
 <!DOCTYPE html>
 <html>
 <head>
