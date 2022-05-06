@@ -25,20 +25,15 @@ color: red;
 <script>
 <!—INSERT YOUR JQUERY CODE HERE - - >
 
-$(document).ready( function(){
-    $("p:last").append("the red bold is gone")
-});
-
+      $(document).ready(function () {
+        let variable= $("p:first").text();
+        $("p:last").text(variable);
+      });
 </script>
 </body>
 </html>
 
 2. Write jQuery code to create a red background for the level-2 list items.
-<script>
-        $(document).ready(function () {
-          $(".level-2").css({"background-color":"red"});
-        });
-      </script>
 
 <ul class="level-1">
  <li class="item-i">I</li>
@@ -57,6 +52,13 @@ $(document).ready( function(){
  </li>
  <li class="item-iii">III</li>
 </ul>
+-----> Answer 
+<script>
+      $(document).ready(function () {
+        $(".level-2").css({"background-color": "red" });
+      });
+    </script>
+
 3. Write jQuery code to select the element that comes immediately before item three and change its
 background color to blue.
 
@@ -77,7 +79,12 @@ described in Chapter 4 of Head First jQuery: "Turkey" in the ingredient list of 
 "Mashed Potatoes" in the vegetarian version. You may assume there is a class "turkey" that identifies
 these items in the list. Describe the changes to the Javascript (jQuery) code to implement this new
 requirement.
-
+---> Answer
+<script>
+      $(document).ready(function () {
+        $(".turkey").replaceWith("<li class='mashedPotato'>Mashed Potato</li>");
+      });
+    </script>
 
 5. Write Javascript (jQuery) code to change the color of the parent and grandparent list items of the span
 of text ("some text") in the following to green.

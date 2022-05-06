@@ -24,7 +24,8 @@
     <script>
       $(document).ready(function () {
         //Question-1
-        $("p:last").append("The red bold is gone");
+        let variable= $("p:first").text();
+        $("p:last").text(variable);
       });
     </script>
 
@@ -51,7 +52,7 @@
     <script>
       $(document).ready(function () {
         //Question-2
-        $(".level-2").css({ "background-color": "red" });
+        $(".level-2").css({"background-color": "red" });
       });
     </script>
 
@@ -66,14 +67,15 @@
     <script>
       //Question-3
       $(document).ready(function () {
-        $("ul li:nth-child(2)").css("background-color", "blue");
+        //$("ul li:nth-child(2)").css("background-color", "blue");
+        $(".third-item").prev().css("background-color", "blue")
       });
     </script>
 
     <script>
       //Question-4
       $(document).ready(function () {
-        $(".turkey").replaceWith("Mashed Potatoes");
+        $(".turkey").replaceWith("<li class='mashedPotato'>Mashed Potato</li>");
       });
     </script>
 
