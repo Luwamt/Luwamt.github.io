@@ -64,7 +64,7 @@ background color to blue.
 
  <script>
           $(document).ready( function(){
-          $("ul li:nth-child(2)").css("background-color", "blue");
+          $(".third-item").prev().css("background-color", "blue")
           });
       </script>
 <ul>
