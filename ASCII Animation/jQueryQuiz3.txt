@@ -95,6 +95,9 @@ of text ("some text") in the following to green.
 <script>
 $(document).ready(function(){
 <!—INSERT YOUR JQUERY CODE HERE - - >
+
+        $("span:last").parent().css("color", "green");
+      $("span:last").parent().parent().css({"color": "green"})
 });
 </script>
 </head>
