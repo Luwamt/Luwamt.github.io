@@ -16,16 +16,16 @@
         <div class="divClass">
         <form  id="form" action="https://mumstudents.org/params.php">
    <label for="name">First Name:</label>
-   <input type="text" size="17" maxlength="10" placeholder="FirstName" name="firstName">
+   <input type="text" size="17" maxlength="10" placeholder="FirstName" name="firstName"required>
   </div>
   <div class="divClass">
    <label for="name">Last Name:</label>
-   <input type="text" size="17" maxlength="10" placeholder="LastName" name="lastName" >
+   <input type="text" size="17" maxlength="10" placeholder="LastName" name="lastName" required >
   </div>
 
    <div class="divClass">
    <label for="id">Student Id:</label>
-  <input type="text" name="studentid" size="17">
+  <input type="text" name="studentid" size="17" required>
 </div>
 <div class="divClass">
   <label for="assg">Assignments:</label>
@@ -47,7 +47,7 @@
 
 <label for="grade">Are you looking for your own grade?</label>
 <div id="checkbox">
-<input type="checkbox" name="yes">Yes
+<input type="checkbox" name="yes" checked>Yes
 <input type="checkbox" name="no">No
 </div>
 <button name="submit" class="btn">Submit</button>
