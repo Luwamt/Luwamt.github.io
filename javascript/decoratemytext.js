@@ -12,7 +12,7 @@ window.onload = function () {
   
     var check1= document.getElementById("check1");
   
-    check1.onchange=chengeFont;
+    check1.onchange=changeFont;
   
   }
   
@@ -26,7 +26,7 @@ window.onload = function () {
   
   function interval() {
     var id = setInterval(increaseFontSize, 1000);
-    setTimeout(clearInterval, 5000, id);
+    setTimeout(clearInterval, 2000, id);
   }
   
   function changeFont() {

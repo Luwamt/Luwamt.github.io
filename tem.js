@@ -5,7 +5,7 @@ let check = document.getElementById("bling");
 
 function increaseFontSize() {
   let txt = document.getElementById("textArea");
-  style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+  let style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
   currentSize = parseFloat(style);
   txt.style.fontSize = (currentSize + 2) + 'px';
   console.log("clicked the increase function")
@@ -30,7 +30,7 @@ function changeFont() {
   } else {
     console.log("unchecked");
     document.getElementById("textArea").style.fontWeight = "normal";
-    document.getElementById("textArea").style.fontWeight = "black";
+    document.getElementById("textArea").style.color = "black";
     document.getElementById("textArea").style.textDecoration = "none";
     document.body.style.backgroundColor= "white";
   
