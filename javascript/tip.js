@@ -1,4 +1,4 @@
-function calcTip(){
++function calcTip(){
     
         let subtotal1=document.getElementById("subtotal").value;
         let tip2=document.getElementById("tip").value;

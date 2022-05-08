@@ -36,10 +36,10 @@ function fn(){
     depDepo='deposit'
     createDropDown()
    }
+
    function debitHandler(){
     depDepo='debit'
     createDropDown()
-
 
    }
    function createDropDown(){
