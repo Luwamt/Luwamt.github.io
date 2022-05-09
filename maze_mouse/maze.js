@@ -1,8 +1,6 @@
 
-$(document).ready(function () {
-
+ $(document).ready(function () {
     let lost = false;
-  
     $("#start").click(function () {
       $("#status").text('Click the "S" to begin');
   
