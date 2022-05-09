@@ -8,13 +8,16 @@
     <!--<script src="./fikr.js"></script>-->
 </head>
 <body>
+    <!-- <img src="../mid-term/image/kitty.jpg"  -->
     <h1>Welcome to my website</h1>
     <div id="cat">
+        
     <button id="kitty">kitty</button>
 </div>
 <div id="dog">
     <button id="pupy">pupy</button>
 </div>
+
 <script>
     let cati= document.getElementById("kitty");
     let dogi= document.getElementById("pupy"); 
@@ -23,8 +26,11 @@
 
 
 function replace(){
-    alert("hello")
- catdiv.innerHTML= <div> <img src="mid-term/kitty.jpg" /> </div>  ;
+    const myDiv = document.getElementById('cat')
+const img=document.createElement('img')
+img.src="../mid-term/image/kitty.jpg"
+myDiv.appendChild(img)
+
 }
 </script>
 </body>
