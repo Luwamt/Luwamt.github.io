@@ -1,0 +1,22 @@
+{
+  "name": "luwamt.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tem.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luwamt/Luwamt.github.io.git"
+  },
+  "author": "@luli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luwamt/Luwamt.github.io/issues"
+  },
+  "homepage": "https://github.com/Luwamt/Luwamt.github.io#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
