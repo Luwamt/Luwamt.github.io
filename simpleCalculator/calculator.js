@@ -8,7 +8,7 @@ const app =express();
 app.set("view engine","ejs");
 
 // get request from localhost:3000/
-app.get("./calculator.js",(req, res)=>{
+app.get("/calculator.js",(req, res)=>{
 
 var q = req.query;
 var n1 =parseFloat(q.num1);
