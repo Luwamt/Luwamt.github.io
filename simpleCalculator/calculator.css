@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+}
+.box {
+  margin: 50px;
+  border: 3px solid gray;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  height: 300px;
+}
+button {
+  margin-left: 150px;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 6px;
+  width: 90px;
+  margin-top: 10px;
+}
+input[type="text"] {
+  width: 170px;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  height: 30px;
+}
+label {
+  font-size: 18px;
+  font-weight: bold;
+}
+#operation {
+  border-radius: 4px;
+  height: 30px;
+  width: 110px;
+  font-weight: bold;
+}
