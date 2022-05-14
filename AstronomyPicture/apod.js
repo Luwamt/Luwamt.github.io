@@ -19,6 +19,7 @@
     };
     function showPicture(data) {
     $("#pic").attr("src", data.url);
+    $("#title").text(data.title);
     };
     function noPicture(error) {
     alert(error.responseText);

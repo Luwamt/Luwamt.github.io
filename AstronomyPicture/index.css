@@ -8,9 +8,25 @@
   }
   
   body {
+    /* background-image: url('http://lh3.googleusercontent.com/qnqubr_q2MDao-neOb3qGQPZHGNHhuPCKvB64l0x5mVDagy-73EkfbbcJXRbmtg') ; */
     background-color: white;
+    background-repeat: no-repeat;
     color: var(--primary-text-color);
     line-height: 154%;
     margin: 0;
   }
+  h1{
+    /* text-align: center; */
+    font-size: 35px;
+  }
+  #ctn{
+    margin-left: 22%;
+    margin-top: 7px;
+  }
+  input{
+    height: 25px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
   
