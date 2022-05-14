@@ -9,8 +9,9 @@
   
   body {
     /* background-image: url('http://lh3.googleusercontent.com/qnqubr_q2MDao-neOb3qGQPZHGNHhuPCKvB64l0x5mVDagy-73EkfbbcJXRbmtg') ; */
-    background-color: white;
-    background-repeat: no-repeat;
+    background-image: url('https://preview.redd.it/dtgr2584vzx51.png?width=960&crop=smart&auto=webp&s=7cc0c122153bce54e3c9fcd5c6b52fb27e51464f');
+    /* background-color: white; */
+     background-repeat: repeat; 
     color: var(--primary-text-color);
     line-height: 154%;
     margin: 0;
@@ -18,6 +19,10 @@
   h1{
     /* text-align: center; */
     font-size: 35px;
+    color:white;
+  }
+  label,#title{
+    color:white;
   }
   #ctn{
     margin-left: 22%;
