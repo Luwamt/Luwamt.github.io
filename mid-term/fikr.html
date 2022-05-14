@@ -14,24 +14,31 @@
         
     <button id="kitty">kitty</button>
 </div>
-<div id="dog">
+<div id="dog" >
+   
     <button id="pupy">pupy</button>
 </div>
 
 <script>
     let cati= document.getElementById("kitty");
-    let dogi= document.getElementById("pupy"); 
+    let dogi= document.getElementById("pupy");
     let catdiv= document.getElementById("cat");
     cati.onclick = replace;
-
+    dogi.onclick=replacePupy;
+    
 
 function replace(){
-    const myDiv = document.getElementById('cat')
+ const myDiv = document.getElementById('cat')
 const img=document.createElement('img')
 img.src="../mid-term/image/kitty.jpg"
-myDiv.appendChild(img)
-
+myDiv.appendChild(img) 
 }
+function replacePupy(){
+ document.getElementById('pupy').src="../mid-term/image/pupy.jpg";
+   //const img=document.createElement('img')
+  
+   //myDiv.appendChild(img) 
+   }
 </script>
 </body>
 </html>
